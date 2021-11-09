@@ -9,8 +9,6 @@ use app\config\DB;
 use app\controllers\personController\PersonController;
 use app\Router;
 
-print_r($_COOKIE);
-
 $db = new DB();
 $con = $db->connect();
 $router = new Router();
